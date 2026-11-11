@@ -1,0 +1,26 @@
+{
+  "id": "rover-horns",
+  "kind": "native",
+  "version": "0.1.1",
+  "display_name": "Rover Horns",
+  "gameplay": true,
+  "feature_dependencies": [
+    "sound-framework"
+  ],
+  "play_help": [
+    "Driver horn playback prepared for operator-supplied Omni WAV audio.",
+    "Implementation build only; gameplay testing is deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "sound-framework.sound",
+      "abi": 1,
+      "min_size": 48
+    },
+    {
+      "api": "sound-framework.sound-assets",
+      "abi": 1,
+      "min_size": 32
+    }
+  ]
+}
