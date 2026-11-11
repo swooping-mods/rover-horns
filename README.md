@@ -1,5 +1,7 @@
 # Rover Horns
 
+<img src="media/icon.png" alt="Rover Horns icon" width="128" height="128">
+
 Driver horn playback prepared for operator-supplied Omni WAV audio.
 
 ## Install
